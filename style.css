@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(download\ \(2\).jfif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container h1 {
+    font-size: 4.3em;
+    font-weight: 500;
+}
+
+.main-container h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.boxes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 100px;
+    margin-top: 40px;
+
+}
+
+.ui-section {
+    width: 30%;
+    height: 300px;
+    border: 2px solid gray;
+    box-shadow: 0px 0px 50px 0px purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.ui-section a {
+    margin-top: 15px;
+    color: #000;
+}
+
+.clone-section {
+    width: 30%;
+    height: 300px;
+    margin-left: 40px;
+    border: 2px solid gray;
+    box-shadow: 0px 0px 50px 0px purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clone-section a {
+    margin-top: 15px;
+    color: #000;
+}
+
+
+/* reponsive start  */
+
+@media (max-width:480px) {
+
+    .main-container {
+        width: 100%;
+        height: 900px;
+    }
+
+    .main-container h1 {
+        font-size: 2.5em;
+    }
+
+    .main-container h2 {
+        font-size: 2em;
+    }
+   
+.boxes {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 0px;
+    margin-top: 20px;
+}
+
+.ui-section {
+    width: 90%;
+    height: 280px;
+}
+
+.clone-section {
+    width: 90%;
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+    
+}
